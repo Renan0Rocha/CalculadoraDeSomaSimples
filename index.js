@@ -1,3 +1,4 @@
+//FUNÇÃO PARA CALCULO
 $(document).ready(function () {
   $("#calcular").click(function () {
     var num1 = parseFloat($("#numero1").val());
