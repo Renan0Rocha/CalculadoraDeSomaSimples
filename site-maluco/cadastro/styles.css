@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../img/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  width: 700px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#generoContainer,
+#telefoneContainer,
+#emailContainer,
+#estadoCivilContainer {
+  margin-top: 30px;
+}
+
+canvas {
+  border: 2px dashed #ccc;
+  background-color: #f9f9f9;
+  cursor: crosshair;
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+#resultadoAnalise {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #ddd;
+  width: auto;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+#numeroAleatorio {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para o Quebra-Cabeça de E-mail */
+.montagem {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.email-display {
+  min-height: 40px;
+  border: 2px dashed #ccc;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.pecas {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.peca {
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 5px;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: grab;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.peca:active {
+  cursor: grabbing;
+}
+
+#mensagemEmail {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#limparEmail {
+  background-color: #ff6666;
+  color: white;
+  margin-top: 15px;
+}
+
+#limparEmail:hover {
+  background-color: #ff4c4c;
+}
+
+#emojiNuvem {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.emoji {
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.emoji:hover {
+  transform: scale(1.3);
+}
+
+#estadoCivilSelecionado {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+}
